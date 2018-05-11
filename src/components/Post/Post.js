@@ -1,4 +1,5 @@
 import React from 'react';
+// import {withRouter} from 'react-router-dom';
 
 import './Post.css';
 
@@ -9,6 +10,8 @@ const post = (props) => (
             <div className="Author">{props.author}</div>
         </div>
     </article>
-);
+    );
 
+
+// export default withRouter(post);
 export default post;
